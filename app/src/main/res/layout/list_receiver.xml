@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/working_list_item_listener_receiver_main_rl"
+    android:padding="10dp"
+    android:background="#F2130909"
+    tools:context=".list.ListReceiver"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_receivertxt"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_receiverbtn"
+        android:layout_below="@id/list_receivertxt"
+        android:text="move back"
+        />
+</RelativeLayout>
